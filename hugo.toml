@@ -1,0 +1,24 @@
+baseURL = "https://AdrianJMC.github.io/"
+title = "Adrián - Perfil"
+theme = "lynx"
+languageCode = "es-mx"
+defaultContentLanguage = "es"
+
+[params]
+  description = "Desarrollador Full-Stack enfocado en construir soluciones eficientes y rápidas con tecnologías como React y Node.js. Entusiasta de la Inteligencia Artificial, el hardware de alto rendimiento y creador de contenido en TikTok."
+
+[params.author]
+  name = "Adrián Mosqueda"
+  image = "/images/foto_perfil.jpg"
+  
+  # AQUI ESTABA EL DETALLE: Lynx usa 'headline' en lugar de 'bio'
+  headline = "Desarrollador Full-Stack enfocado en construir soluciones eficientes y rápidas con tecnologías como React y Node.js. Entusiasta de la IA, el hardware de alto rendimiento y creador de contenido en TikTok. Siempre buscando optimizar el código y el setup."
+  
+  # AQUI ESTABA EL SEGUNDO DETALLE: Lynx usa una lista llamada 'links'
+  links = [
+    { github = "https://github.com/AdrianJMC" },
+    { instagram = "https://www.instagram.com/adrian__jmc/" },
+    # Si TikTok no tiene un ícono oficial en tu versión de Lynx, 
+    # podemos forzarlo como un enlace personalizado (link)
+    { link = "https://www.tiktok.com/@adrian._.jmc" } 
+  ]
